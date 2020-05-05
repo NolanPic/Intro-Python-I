@@ -8,30 +8,38 @@ overview: https://stackoverflow.com/a/509295
 
 Use Python's slice syntax to achieve the following:
 """
+print('\n***********\n')
 
 a = [2, 4, 1, 7, 9, 6]
 
 # Output the second element: 4:
-print()
+print(a[1])
+print('\n***********\n')
 
 # Output the second-to-last element: 9
-print()
+print(a[-2])
+print('\n***********\n')
 
 # Output the last three elements in the array: [7, 9, 6]
-print()
+print(a[-3:])
+print('\n***********\n')
 
 # Output the two middle elements in the array: [1, 7]
-print()
+print(a[2:4])
+print('\n***********\n')
 
 # Output every element except the first one: [4, 1, 7, 9, 6]
-print()
+print(a[1:])
+print('\n***********\n')
 
 # Output every element except the last one: [2, 4, 1, 7, 9]
-print()
+print(a[:5])
+print('\n***********\n')
 
 # For string s...
 
 s = "Hello, world!"
 
 # Output just the 8th-12th characters: "world"
-print()
+print(s[7:12])
+print('\n***********\n')
